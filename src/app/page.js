@@ -44,3 +44,19 @@ export default function Home() {
     </div>
   );
 }
+
+const Profile = () => {
+  return (
+    <div>
+      {experiences.map((experience) => {
+        return (
+          <div>
+            <p>{experience.name}</p>
+          </div>
+        );
+      })}
+    </div>
+  );
+};
+
+<p className=" border border-green-600  h-5 bg-emerald-400"></p>;
